@@ -74,7 +74,7 @@ The following animation shows the evolution of the damage field $d$ as the shear
 ### Load vs. Displacement Curve
 The reaction force is integrated over the top boundary to produce the global structural response. The sudden drop in load corresponds to the rapid growth of the fracture.
 
-> ![Load vs Displacement](<result visualization/load_curve.png>)
+> ![Load vs Displacement](<result visualization/load_curve.jpg>)
 
 > *Figure 3: Global reaction force vs. applied displacement.*
 
