@@ -10,6 +10,7 @@ The model simulates a unit square plate ($1.0 \times 1.0$) with an initial horiz
 * **Loading:** The top boundary is subjected to a prescribed horizontal displacement ($\Delta u$) to induce shear, while vertical movement is constrained on the top, left, and right boundaries ($u_y = 0$).
 
 > ![Problem Statement](assets/problem_statement.png)
+
 > *Figure 1: Problem geometry and boundary conditions.*
 
 ## 🧮 Theoretical Background
@@ -66,13 +67,15 @@ $$\int_{\Omega} \left[ \frac{G_c}{l_0} d w + G_c l_0 \nabla d \cdot \nabla w \ri
 ### Crack Propagation Animation
 The following animation shows the evolution of the damage field $d$ as the shear displacement increases. The pre-crack acts as the initiation site for the crack path.
 
-> ![Fracture Animation](assets/crack_animation.gif)
+> ![Fracture Animation](<result visualization/crack_animation.gif>)
+
 > *Figure 2: Evolution of the damage field during shear loading.*
 
 ### Load vs. Displacement Curve
 The reaction force is integrated over the top boundary to produce the global structural response. The sudden drop in load corresponds to the rapid growth of the fracture.
 
-> ![Load vs Displacement](assets/load_curve.png)
+> ![Load vs Displacement](<result visualization/load_curve.png>)
+
 > *Figure 3: Global reaction force vs. applied displacement.*
 
 ## 🚀 How to Run
