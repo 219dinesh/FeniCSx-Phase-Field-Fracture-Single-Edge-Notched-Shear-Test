@@ -82,5 +82,8 @@ The reaction force is integrated over the top boundary to produce the global str
 * PETSc / mpi4py
 
 ### Execution
+This script requires a FEniCSx (DOLFINx) environment. If you are using WSL or a Docker container, run the script via Python:
 ```bash
 python3 phase_field_shear.py
+```
+Output files (.xdmf for ParaView visualization and .csv for data plotting) are generated in the specified directory.
